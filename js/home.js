@@ -1,28 +1,31 @@
 // IMPORT
-import { suma } from './components/algebra/suma.js';
 import { dalyba } from './components/algebra/dalyba.js';
+import { kvadratu } from './components/algebra/kvadratu.js';
+import { sandauga } from './components/algebra/sandauga.js';
+import { skirtumas } from './components/algebra/skirtumas.js';
+import { suma } from './components/algebra/suma.js';
+import { vidurkis } from './components/algebra/vidurkis.js';
 
 // EXECUTION
 
 const a = suma(8, 5);
 console.log(a);
 
-duodamas "array of strings"
-gauti vientisa "string", kuris sudarytas is:
-- zodzio pirmos raides
-- zodzio vidurines raides
-- zodzio paskutines raides
+const b = skirtumas(8, 5);
+console.log(b);
 
-TESTAI:
-vientisasTekstas(['labas', 'rytas']) -> 'lbsrts'
-vientisasTekstas(['mano', 'namas', 'yra', 'geltonas']) -> 'maonmsyragts'
-vientisasTekstas(['as', 'i', 'ten']) -> 'aasiiiten'
+const c = sandauga(8, 5);
+console.log(c);
 
-REIKIAMOS FUNKCIJOS:
-function vientisasTekstas - sujungia array i vientisa string
-function pirmaRaide('labas') -> 'l'
-function vidurineRaide('labas') -> 'b'
-function paskutineRaide('labas') -> 's'
+const d = dalyba(8, 5);
+console.log(d);
+
+const e = kvadratu(5);
+console.log(e);
+
+const f = vidurkis([10, 8]);
+console.log(f);
+
 
 
 const s1 = vientisasTekstas(['labas', 'rytas']);

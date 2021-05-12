@@ -1,7 +1,6 @@
 {
   "name": "11-syntax",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "live-server --port=3000",
@@ -13,5 +12,15 @@
   "dependencies": {
     "D": "^1.0.0",
     "live-server": "^1.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atru8729/11-syntax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Atru8729/11-syntax/issues"
+  },
+  "homepage": "https://github.com/Atru8729/11-syntax#readme",
+  "description": ""
 }
