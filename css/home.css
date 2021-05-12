@@ -1,3 +1,4 @@
+  
 /* base/init */
 @import './basic/reset.css';
 @import './basic/base.css';
@@ -5,3 +6,11 @@
 /* 3rd party */
 
 /* components */
+@import './components/figures.css';
+@import './components/form.css';
+
+/* CUSTOM STYLES FOR THIS PAGE GOES BELOW THIS COMMENT */
+
+body {
+  background-color: #f9f9f9;
+}
