@@ -5,6 +5,7 @@ import { sandauga } from './components/algebra/sandauga.js';
 import { skirtumas } from './components/algebra/skirtumas.js';
 import { suma } from './components/algebra/suma.js';
 import { vidurkis } from './components/algebra/vidurkis.js';
+import { vientisasTekstas } from './tekstas/vientisasTekstas.js';
 
 // EXECUTION
 
@@ -36,3 +37,6 @@ console.log(s2, '->', 'maonmsyragts');
 
 const s3 = vientisasTekstas(['as', 'i', 'ten']);
 console.log(s3, '->', 'aasiiiten');
+
+const s4 = vientisasTekstas([' ']);
+console.log(s4, '->', ' ');
