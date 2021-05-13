@@ -7,3 +7,9 @@ function pirmaRaide(text) {
 }
 
 export {pirmaRaide}
+
+
+
+/*parasyti funkcija:
+- duoto zodzio pirma raide
+*/

@@ -7,12 +7,6 @@ function vidurineRaide(text) {
 
 export {vidurineRaide}
 
-/*
-tetis -> t (nelyginis)
-teksto ilgis 5
-vidurine raide 1.5
-
-mano -> a (lyginis)
-teksto ilgis 4
-vidurine 1
+/*parasyti funkcija:
+- duoto zodzio vidurine raide
 */
