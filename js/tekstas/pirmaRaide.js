@@ -1,12 +1,6 @@
-function pirmaRaide(text) {
-    if (text === '') {
-        return '';
-    }
+const pirmaRaide = text => text === '' ? '' : text[0];
 
-    return text[0];
-}
-
-export {pirmaRaide}
+export { pirmaRaide }
 
 
 

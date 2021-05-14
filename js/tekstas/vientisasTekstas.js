@@ -1,8 +1,8 @@
-import { pirmaRaide } from "./pirmaRaide.js";
-import { vidurineRaide } from "./vidurineRaide.js";
-import { paskutineRaide } from "./paskutineRaide.js";
+import { pirmaRaide } from './pirmaRaide.js';
+import { vidurineRaide } from './vidurineRaide.js';
+import { paskutineRaide } from './paskutineRaide.js';
 
-function vientisasTekstas(textList) {
+const vientisasTekstas = textList => {
     let answer = '';
 
     for (let i = 0; i < textList.length; i++) {
@@ -10,7 +10,6 @@ function vientisasTekstas(textList) {
         answer += pirmaRaide(text);
         answer += vidurineRaide(text);
         answer += paskutineRaide(text);
-        
     }
 
     return answer;
